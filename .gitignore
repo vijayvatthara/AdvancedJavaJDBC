@@ -46,3 +46,19 @@ Thumbs.db
 ### Java ###
 *.class
 
+# Database files (if you ever use embedded databases)
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+*.bak
+
+# Environment files
+.env
+.env.*
+
+# Maven Wrapper binaries (optional)
+.mvn/wrapper/maven-wrapper.jar
+
