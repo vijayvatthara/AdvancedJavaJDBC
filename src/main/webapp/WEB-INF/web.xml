@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app
+        xmlns="https://jakarta.ee/xml/ns/jakartaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="
+            https://jakarta.ee/xml/ns/jakartaee
+            https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd"
+        version="6.0">
+
+    <!-- Week 06 -->
+
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>
+            com.vijay.advancedjava.servlet.week06.HelloServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HelloServlet</servlet-name>
+        <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+
+    <!-- Week 07 -->
+
+    <servlet>
+        <servlet-name>MainServlet</servlet-name>
+        <servlet-class>
+            com.vijay.advancedjava.servlet.week07.MainServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MainServlet</servlet-name>
+        <url-pattern>/main</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>HeaderServlet</servlet-name>
+        <servlet-class>
+            com.vijay.advancedjava.servlet.week07.HeaderServlet
+        </servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HeaderServlet</servlet-name>
+        <url-pattern>/header</url-pattern>
+    </servlet-mapping>
+
+</web-app>
