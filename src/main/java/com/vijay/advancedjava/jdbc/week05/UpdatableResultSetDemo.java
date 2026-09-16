@@ -58,12 +58,6 @@ public class UpdatableResultSetDemo {
             // 2. Insert a new employee
             rs.moveToInsertRow();
 
-            rs.updateInt("emp_id", 204);
-            rs.updateString("emp_name", "Kiran");
-            rs.updateDouble("salary", 62000);
-
-            rs.insertRow();
-
             System.out.println(
                     "Inserted new employee (204, Kiran, 62000)."
             );
